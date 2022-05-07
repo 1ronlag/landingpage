@@ -1,0 +1,97 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.padre {
+  background: black;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.header {
+  background: url(../img/header.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.menu {
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.historia {
+  flex: 1 1 auto;
+}
+.historia a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.historia a:hover {
+  color: chocolate;
+}
+
+.tipos {
+  flex: 5 1 auto;
+}
+.tipos a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.tipos a:hover {
+  color: chocolate;
+}
+
+.beneficios {
+  flex: 1 1 auto;
+}
+
+.beneficios a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.beneficios a:hover {
+  color: chocolate;
+}
+
+.h1 {
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  font-weight: 300px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.section {
+  background: #000;
+  display: flex;
+}
+
+.articulos {
+  flex: 2 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+  color: whitesmoke;
+}
+
+.article {
+  flex: 1 1 40%;
+}
+
+.footer {
+  background: black;
+  text-align: center;
+  color: whitesmoke;
+}
